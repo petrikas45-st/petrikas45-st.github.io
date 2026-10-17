@@ -1,100 +1,133 @@
 <!DOCTYPE html>
 <html lang="lt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meistrų Skaičiuoklės – Statybų įrankiai ir skaičiavimai</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meistrų Skaičiuoklės – Statybų įrankiai ir skaičiavimai</title>
 
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1462567261580029"
-     crossorigin="anonymous"></script>
+<!-- AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1462567261580029"
+crossorigin="anonymous"></script>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background: #222;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        .card {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .card h2 {
-            margin-top: 0;
-        }
-        a.button {
-            display: inline-block;
-            padding: 10px 15px;
-            background: #0078ff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        a.button:hover {
-            background: #005fcc;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #777;
-        }
-    </style>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* HEADER */
+header {
+    background: #222;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff7b00;
+    transform: translateY(-2px);
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #ff7b00;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #e56f00;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>Meistrų Skaičiuoklės</h1>
-    <p>Statybų skaičiavimai, įrankiai ir pagalba meistrams</p>
+    <!-- LOGOTIPAS -->
+    <svg width="180" height="40" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="10" width="60" height="60" rx="8" fill="#ff7b00"/>
+      <path d="M20 25 L40 25 L50 45 L10 45 Z" fill="white"/>
+      <text x="80" y="55" font-size="32" font-family="Arial" fill="#fff">Meistrų Skaičiuoklės</text>
+    </svg>
+
+    <nav>
+        <a href="/">Pagrindinis</a>
+        <a href="/meistru-skaiciuokle/">Skaičiuoklės</a>
+        <a href="#kontaktai">Kontaktai</a>
+    </nav>
 </header>
 
 <div class="container">
 
-    <!-- Reklamos vieta -->
     <div class="card">
         <h2>Reklama</h2>
-        <p>Čia Google automatiškai rodys reklamas.</p>
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-1462567261580029"
              data-ad-slot="1234567890"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
 
     <div class="card">
         <h2>Skaičiuoklės</h2>
-        <p>Čia rasite visus mano sukurtus statybų skaičiavimo įrankius.</p>
+        <p>Greiti ir tikslūs statybų skaičiavimai.</p>
         <a class="button" href="/meistru-skaiciuokle/">Atidaryti skaičiuokles</a>
     </div>
 
     <div class="card">
         <h2>Apie projektą</h2>
-        <p>Šis puslapis sukurtas tam, kad meistrai galėtų greitai ir paprastai atlikti skaičiavimus, taupyti laiką ir dirbti efektyviau.</p>
+        <p>Šis projektas sukurtas meistrams, kurie nori dirbti greičiau, tiksliau ir patogiau.</p>
     </div>
 
 </div>
